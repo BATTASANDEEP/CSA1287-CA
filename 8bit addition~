@@ -1,0 +1,7 @@
+;8 bit subtraction
+lda 8050
+mov b,a
+lda 8051
+sub b
+sta 8052
+hlt
